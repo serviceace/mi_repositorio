@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+			<meta charset="utf-8">
+			<title>Encuadernacion Artesanal</title>
+			<link rel="stylesheet" href="../main.css" />
+		</head>
+
+
+
+
+	<body>
+		<header>
+			<img class="cabecera" src="../images/logo_ramdog.png" alt="logotipo"/>
+			<Nav>
+				<ul>
+					<li><a href="../index.html">Inicio</a></li> 
+					<li><a href="../pages/productos.html">Productos</a></li>
+					<li><a href="../pages/quienes_somos.html">Quienes Somos</a></li>
+					<li><a href="../pages/contactanos.html">Contáctanos</a></li>
+				</ul>
+			</Nav>
+		</header>
+
+
+		<h1 class="titulos"> Contáctanos </h1>
+		
+	<section>
+		<p class="parrafos">
+			¿Tienes alguna duda o sujerencia? ¿Te interesa preguntarnos algo sobre nuestros podructos? ¿Deseas contactarnos por algun motivo en particular? Aquí te dejamos un formulario para poder hacernos llegar tus inquietudes
+		</p>
+		<form>
+			<fieldset style="width: 30%" >
+				<legend>Contáctanos</legend>
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre" name="nombre"><br>
+
+			<label for="apellido">Apellido:</label>
+			<input type="text" id=apellido name="apellido"><br>
+
+			<label for="email">E-mail:</label>
+			<input type="text" id="email" name="email"><br>
+
+
+			<select name="genero">Genero:
+				<option value="hombre">Hombre</option>
+				<option value="mujer">Mujer</option>
+				<option value="otro">Otro</option>
+			</select><br>
+
+			<div>¿Deseas recibir nuestro Newsletter?
+			<input type="checkbox" name="acepta" value="1">
+			</div><br>
+
+			<label for="mensaje">Escribenos un comentario:</label><br>
+			<textarea id="mensaje" name="mensaje" rows="8" cols="35"></textarea><br>
+
+			<input type="reset" name="limpiar">
+			<input type="submit" name="enviar">
+
+
+			</fieldset>
+		</form>
+
+
+		
+		<footer>
+			<p> © 2019-2021  Empresa de Cuadernos Artesanales </p>
+		</footer>
+	
+	</body>
+</html>

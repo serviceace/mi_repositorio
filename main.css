@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+	background-color: #9ba475;
+}
+
+.cabecera {
+	padding: 0;
+	width: 239px;
+	height: 200px;
+}
+
+.container {
+	padding: 50px 50px;
+	margin: 30px 0px;
+}
+
+/*-------BOTONES PRODUCTO --------*/
+.contenedorImg {
+    min-height: 70vh;
+    background-color: #0099ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contenedorImg article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorImg article img {
+    width: 200px;
+    border-radius: 5px;
+    filter: brightness(70%);
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+.contenedorImg article p {
+    font-size: 1.7rem;
+    color: white;
+    margin-top: 8px;
+    align-items: center;
+}
+
+.contenedorImg article img:hover {
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+
+.cuadrado {
+	border-radius: 15px;
+	filter: brightness(70%);
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	transition: all 0.3s;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+	transition-delay: 0s;
+}
+
+.cuadrado img:hover {
+	filter: brightness(100%);
+	transform: scale(1.1);
+}
+
+p {
+	font-family: 'Glory', sans-serif;
+	color: white;
+}
+
+.contenido {
+	background-color: #9ba475;
+}
+
+nav {
+	background-color: #68663d;
+	width: 100%; 
+   	height: 36px;
+	color: white;
+}
+
+h2 {
+	font-family: 'Glory', sans-serif;
+	font-weight: bold;
+	color: white;
+}
+
+.nombre_seccion {
+	margin: 20px;
+	font-family: 'Glory', sans-serif;
+	color: white;
+	text-align: center;
+}
+
+.titulos {
+	margin: 20px;
+	font-family: 'Glory', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 50px;
+}
+
+.parrafos {
+	margin: 20px;
+	font-family: 'Glory', sans-serif;
+	font-size: 15px;
+	font-family: serif;
+	text-align: justify;
+	color: white;
+}
+
+/* ----- BARRA NAVEGACION ----- */
+
+ul {
+
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	display: inline-block;
+	width: 24%;
+	position: relative;
+
+}
+ul ul {
+	position: absolute;
+	display: none;
+}
+
+ul ul li {
+	width: 100%;
+}
+
+ul li:hover ul {
+	display: block;
+}
+
+ul li:hover ul:hover {
+	background-color: #9ba475;
+}
+
+ul li { 
+	font-family: 'Glory', sans-serif;
+	list-style: none;
+	color: white;
+} 
+
+ol li {
+	font-family: 'Glory', sans-serif;
+	list-style-type: decimal-leading-zero;
+	color: white;
+}
+
+a {
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	color: white;
+	background-color: #68663d;
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: 'Glory', sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+	background-color: #9ba475;
+}
+
+
+/* ----- FIN BARRA NAVEGACION ----- */
+
+table, th, td {
+	font-weight: bold;
+	font-family: 'Glory', sans-serif;
+	padding: 15px;
+	border: 1px solid black;
+	border-collapse: collapse;
+	list-style-position: center;
+	text-align: center;
+	width: 50%;
+	color: white;
+	}
+
+
+
+
+
+
+
+
+
+
+/*----- FOOTER -----*/
+
+h6 {
+	font-family: 'Glory', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+
+footer {
+
+	position: absolute;
+	background-image: linear-gradient(#68663d, #242315);
+	text-align: center;
+	width: 100%; 
+   height: 60px;
+}
+/*----- FIN FOOTER -----*/ 
+
+form {
+	margin: 20px;
+	text-align: center;
+	font-family: 'Glory', sans-serif;
+	color: white;
+	width: 80%;
+}
+
+
+
+
+/* ----- ANIMACION DEL HOME ----- */
+.milu_arcoiris {
+	animation-duration: 5s;
+  	animation-name: aparecer;
+  	animation-iteration-count: infinite;
+  	text-align: center;
+}
+
+@keyframes aparecer {
+   0% {
+      opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+/* ----- FIN ANIMACION DEL HOME -----*/
+
+
+
+
+/* ----- Grilla en Quienes Somos -----*/
+.grilla_quienesSomos {
+	margin: 3rem;
+	padding: 1rem;
+	color: white;
+	justify-content: center;
+	display: grid;
+	grid-template-columns: 3fr auto 3fr;
+	grid-template-rows: 2fr 2 fr;
+	grid-gap: 1rem;
+	grid-template-areas: "box1 box1 box2" "box3 box3 box2" "box4 box5 box5" "box4 box6 box6";
+}
+
+.box-1 {
+	padding: 1rem;
+	grid-area: box1;
+}
+
+.box-2 {
+	padding: 1rem;
+	grid-area: box2;
+	background-color: #68663d;
+}
+
+.box-3 {
+	padding: 1rem;
+	grid-area: box3;
+}
+
+.box-4 {
+	padding: 1rem;
+	grid-area: box4;
+	background-color: #68663d;
+}
+
+.box-5 {
+	padding: 1rem;
+	grid-area: box5;
+}
+
+.box-6 {
+	padding: 1rem;
+	grid-area: box6;
+}
+
+.fotos_QuienesSomos {
+	width: 400px;	
+}
+
+/* ----- FIN Grilla en Quienes Somos -----*/
+
+
+
+
+
+
+
+/* ----- PRODUCTOS -----*/
+
+.flexProductos {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: center;
+}
+
+.cuadradoProductos {
+	border-radius: 15px;
+	filter: brightness(70%);
+	margin: 20px;
+	width: 200px;
+	height: 200px;
+	animation-name: botonProducto;
+}
+
+.cuadradoProductos:hover {
+	filter: brightness(100%);
+}
+
+
+/* ----- FIN PRODUCTOS -----*/
