@@ -261,7 +261,7 @@ form {
 	color: white;
 	justify-content: center;
 	display: grid;
-	grid-template-columns: 3fr auto 3fr;
+	
 	grid-template-rows: 2fr 2 fr;
 	grid-gap: 1rem;
 	grid-template-areas: "box1 box1 box2" "box3 box3 box2" "box4 box5 box5" "box4 box6 box6";
@@ -314,10 +314,7 @@ form {
 /* ----- PRODUCTOS -----*/
 
 .flexProductos {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row-reverse;
-	justify-content: center;
+
 }
 
 .cuadradoProductos {
@@ -333,5 +330,13 @@ form {
 	filter: brightness(100%);
 }
 
+
+.flexHijo {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse;
+	justify-content: center;
+	text-align: center;
+}
 
 /* ----- FIN PRODUCTOS -----*/
