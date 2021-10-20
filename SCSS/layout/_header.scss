@@ -1,0 +1,65 @@
+.cabecera {
+	padding: 0;
+	width: 15.3rem;
+	height: 12.5rem;
+}
+
+ul {
+
+	list-style: none;
+	padding: 0;
+}
+
+/* Se puede dividir: "width / cantidad de botones " y pone en porcentaje */
+
+li {
+	display: inline-block;
+	width: 24%;
+	position: relative;
+
+}
+ul ul {
+	position: absolute;
+	display: none;
+}
+
+ul ul li {
+	width: 100%;
+}
+
+ul li:hover ul {
+	display: block;
+}
+
+ul li:hover ul:hover {
+	background-color: $paleta__color--principal;
+}
+
+ul li { 
+	font-family: 'Glory', sans-serif;
+	list-style: none;
+	color: $fuente__principal--Color;
+} 
+
+ol li {
+	font-family: 'Glory', sans-serif;
+	list-style-type: decimal-leading-zero;
+	color: $fuente__principal--Color;
+}
+
+a {
+	font-size: 1rem;
+	text-align: center;
+	display: block;
+	color: $fuente__principal--Color;
+	background-color: $paleta__color--secundario;
+	padding: 0.1rem;
+	font-family: 'Glory', sans-serif;
+	text-decoration: none;
+}
+
+a:hover {
+    color: $fuente__principal--Color;
+	background-color: $paleta__color--principal;
+}
+
