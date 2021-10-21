@@ -1,6 +1,7 @@
 @import "./base/reset";
 @import "./base/paleta";
 @import "./layout/header";
+@import "./components/navegacion";
 @import "./layout/footer";
 
 
@@ -113,10 +114,7 @@ h2 {
 	color: $fuente__principal--Color;
 }
 
-/* ----- BARRA NAVEGACION ----- */
 
-
-/* ----- FIN BARRA NAVEGACION ----- */
 
 table, th, td {
 	font-weight: bold;

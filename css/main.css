@@ -56,6 +56,43 @@ a:hover {
   color: white;
   background-color: #9ba475; }
 
+ul {
+  list-style: none;
+  padding: 0; }
+  ul li {
+    display: inline-block;
+    width: 24%;
+    position: relative; }
+    ul li ul {
+      position: absolute;
+      display: none; }
+      ul li ul li {
+        width: 100%; }
+        ul li ul li ul li:hover ul {
+          display: block; }
+          ul li ul li ul li:hover ul ul li:hover ul:hover {
+            background-color: #9ba475; }
+            ul li ul li ul li:hover ul ul li:hover ul:hover ul li {
+              font-family: 'Glory', sans-serif;
+              list-style: none;
+              color: white; }
+              ul li ul li ul li:hover ul ul li:hover ul:hover ul li ol li {
+                font-family: 'Glory', sans-serif;
+                list-style-type: decimal-leading-zero;
+                color: white; }
+                ul li ul li ul li:hover ul ul li:hover ul:hover ul li ol li a {
+                  font-size: 14px;
+                  text-align: center;
+                  display: block;
+                  color: white;
+                  background-color: #68663d;
+                  padding: 10px;
+                  text-transform: uppercase;
+                  font-family: 'Glory', sans-serif;
+                  text-decoration: none; }
+                  ul li ul li ul li:hover ul ul li:hover ul:hover ul li ol li a a:hover {
+                    background-color: #9ba475; }
+
 h6 {
   font-family: 'Glory', sans-serif;
   color: white;
@@ -162,8 +199,6 @@ h2 {
   text-align: justify;
   color: white; }
 
-/* ----- BARRA NAVEGACION ----- */
-/* ----- FIN BARRA NAVEGACION ----- */
 table, th, td {
   font-weight: bold;
   font-family: 'Glory', sans-serif;
