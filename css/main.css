@@ -238,9 +238,9 @@ form {
   color: white;
   justify-content: center;
   display: grid;
-  grid-template-rows: 2fr 2 fr;
+  grid-template-rows: 1fr 1fr;
   grid-gap: 1rem;
-  grid-template-areas: "box1 box1 box2" "box3 box3 box2" "box4 box5 box5" "box4 box6 box6"; }
+  grid-template-areas: "box1 box2"; }
 
 .box-1 {
   padding: 1rem;
@@ -251,25 +251,8 @@ form {
   grid-area: box2;
   background-color: #68663d; }
 
-.box-3 {
-  padding: 1rem;
-  grid-area: box3; }
-
-.box-4 {
-  padding: 1rem;
-  grid-area: box4;
-  background-color: #68663d; }
-
-.box-5 {
-  padding: 1rem;
-  grid-area: box5; }
-
-.box-6 {
-  padding: 1rem;
-  grid-area: box6; }
-
 .fotos_QuienesSomos {
-  width: 400px; }
+  width: 26rem; }
 
 /* ----- FIN Grilla en Quienes Somos -----*/
 /* ----- PRODUCTOS -----*/
