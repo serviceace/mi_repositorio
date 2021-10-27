@@ -1,0 +1,58 @@
+
+/* ---- Botones de Redes Sociales ---- */
+.Redes__PadreFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    .Redes__Botones {
+        filter: brightness(70%);
+
+        &:hover {
+            filter: brightness(100%);
+    
+        }
+    }
+}
+
+.Redes__PadreFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .Redes__Textos {
+        color: $fuente__principal--Color;
+        text-align: center;
+    }
+}
+    
+
+/* ---- Botones de Redes Sociales FIN  ---- */
+
+
+
+/* ---- Botones Producto ---- */
+
+.Productos__PadreFlex {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+
+		.Productos__Botones {
+            filter: brightness(70%);
+			border-radius: 15px;
+
+		&:hover {
+			filter: brightness(100%);
+
+		}
+	}
+}
+
+.Productos__Textos {
+        color: $fuente__principal--Color;
+        text-align: center;
+        justify-content: space-evenly;
+}
+/* ---- Botones Producto ----*/
+

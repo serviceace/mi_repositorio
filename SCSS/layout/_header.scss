@@ -32,7 +32,7 @@ ul li:hover ul {
 }
 
 ul li:hover ul:hover {
-	background-color: $paleta__color--principal;
+	background-color: red;
 }
 
 ul li { 
@@ -52,7 +52,6 @@ a {
 	text-align: center;
 	display: block;
 	color: $fuente__principal--Color;
-	background-color: $paleta__color--secundario;
 	padding: 0.1rem;
 	font-family: 'Glory', sans-serif;
 	text-decoration: none;

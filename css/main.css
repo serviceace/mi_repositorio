@@ -30,7 +30,7 @@ ul li:hover ul {
   display: block; }
 
 ul li:hover ul:hover {
-  background-color: #9ba475; }
+  background-color: red; }
 
 ul li {
   font-family: 'Glory', sans-serif;
@@ -47,7 +47,6 @@ a {
   text-align: center;
   display: block;
   color: white;
-  background-color: #68663d;
   padding: 0.1rem;
   font-family: 'Glory', sans-serif;
   text-decoration: none; }
@@ -56,43 +55,57 @@ a:hover {
   color: white;
   background-color: #9ba475; }
 
-ul {
-  list-style: none;
-  padding: 0; }
-  ul li {
-    display: inline-block;
-    width: 24%;
-    position: relative; }
-    ul li ul {
-      position: absolute;
-      display: none; }
-      ul li ul li {
-        width: 100%; }
-        ul li ul li ul li:hover ul {
-          display: block; }
-          ul li ul li ul li:hover ul ul li:hover ul:hover {
-            background-color: #9ba475; }
-            ul li ul li ul li:hover ul ul li:hover ul:hover ul li {
-              font-family: 'Glory', sans-serif;
-              list-style: none;
-              color: white; }
-              ul li ul li ul li:hover ul ul li:hover ul:hover ul li ol li {
-                font-family: 'Glory', sans-serif;
-                list-style-type: decimal-leading-zero;
-                color: white; }
-                ul li ul li ul li:hover ul ul li:hover ul:hover ul li ol li a {
-                  font-size: 14px;
-                  text-align: center;
-                  display: block;
-                  color: white;
-                  background-color: #68663d;
-                  padding: 10px;
-                  text-transform: uppercase;
-                  font-family: 'Glory', sans-serif;
-                  text-decoration: none; }
-                  ul li ul li ul li:hover ul ul li:hover ul:hover ul li ol li a a:hover {
-                    background-color: #9ba475; }
+/* ----- ANIMACION DEL HOME ----- */
+.milu_arcoiris {
+  align-items: center;
+  animation-duration: 5s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+  text-align: center; }
 
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/* ----- FIN ANIMACION DEL HOME -----*/
+/* ---- Botones de Redes Sociales ---- */
+.Redes__PadreFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .Redes__PadreFlex .Redes__Botones {
+    filter: brightness(70%); }
+    .Redes__PadreFlex .Redes__Botones:hover {
+      filter: brightness(100%); }
+
+.Redes__PadreFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .Redes__PadreFlex .Redes__Textos {
+    color: white;
+    text-align: center; }
+
+/* ---- Botones de Redes Sociales FIN  ---- */
+/* ---- Botones Producto ---- */
+.Productos__PadreFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  .Productos__PadreFlex .Productos__Botones {
+    filter: brightness(70%);
+    border-radius: 15px; }
+    .Productos__PadreFlex .Productos__Botones:hover {
+      filter: brightness(100%); }
+
+.Productos__Textos {
+  color: white;
+  text-align: center;
+  justify-content: space-evenly; }
+
+/* ---- Botones Producto ----*/
 h6 {
   font-family: 'Glory', sans-serif;
   color: white;
@@ -115,17 +128,11 @@ body {
 
 /*-------BOTONES PRODUCTO --------*/
 .contenedorImg {
-  min-height: 70vh;
-  background-color: #0099ff;
   display: flex;
-  justify-content: space-around;
-  align-items: center; }
+  justify-content: space-around; }
 
 .contenedorImg article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
+  align-items: flex-end; }
 
 .contenedorImg article img {
   width: 200px;
@@ -219,21 +226,6 @@ form {
   color: white;
   width: 80%; }
 
-/* ----- ANIMACION DEL HOME ----- */
-.milu_arcoiris {
-  align-items: center;
-  animation-duration: 5s;
-  animation-name: aparecer;
-  animation-iteration-count: infinite;
-  text-align: center; }
-
-@keyframes aparecer {
-  0% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-
-/* ----- FIN ANIMACION DEL HOME -----*/
 /* ----- Grilla en Quienes Somos -----*/
 .grilla_quienesSomos {
   margin: 3rem;
@@ -258,21 +250,3 @@ form {
   width: 26rem; }
 
 /* ----- FIN Grilla en Quienes Somos -----*/
-/* ----- PRODUCTOS -----*/
-.cuadradoProductos {
-  border-radius: 15px;
-  filter: brightness(70%);
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-  animation-name: botonProducto; }
-
-.cuadradoProductos:hover {
-  filter: brightness(100%); }
-
-.flexHijo {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
-  justify-content: center;
-  text-align: center; }

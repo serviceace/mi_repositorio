@@ -1,0 +1,19 @@
+/* ----- ANIMACION DEL HOME ----- */
+.milu_arcoiris {
+	align-items: center;
+	animation-duration: 5s;
+  	animation-name: aparecer;
+  	animation-iteration-count: infinite;
+  	text-align: center;
+}
+
+@keyframes aparecer {
+   0% {
+      opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+/* ----- FIN ANIMACION DEL HOME -----*/

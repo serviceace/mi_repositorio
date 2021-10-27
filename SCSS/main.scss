@@ -2,6 +2,8 @@
 @import "./base/paleta";
 @import "./layout/header";
 @import "./components/navegacion";
+@import "./utilities/animaciones";
+@import "./components/buttons";
 @import "./layout/footer";
 
 
@@ -14,20 +16,15 @@ body {
 	margin: 30px 0px;
 }
 
+
 /*-------BOTONES PRODUCTO --------*/
 .contenedorImg {
-    min-height: 70vh;
-    background-color: #0099ff;
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
 
 .contenedorImg article {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .contenedorImg article img {
@@ -139,25 +136,7 @@ form {
 }
 
 
-/* ----- ANIMACION DEL HOME ----- */
-.milu_arcoiris {
-	align-items: center;
-	animation-duration: 5s;
-  	animation-name: aparecer;
-  	animation-iteration-count: infinite;
-  	text-align: center;
-}
 
-@keyframes aparecer {
-   0% {
-      opacity: 0;
-   }
-   100% {
-     opacity: 1;
-   }
-}
-
-/* ----- FIN ANIMACION DEL HOME -----*/
 
 
 /* ----- Grilla en Quienes Somos -----*/
@@ -189,27 +168,3 @@ form {
 }
 
 /* ----- FIN Grilla en Quienes Somos -----*/
-
-
-/* ----- PRODUCTOS -----*/
-
-.cuadradoProductos {
-	border-radius: 15px;
-	filter: brightness(70%);
-	margin: 20px;
-	width: 200px;
-	height: 200px;
-	animation-name: botonProducto;
-}
-
-.cuadradoProductos:hover {
-	filter: brightness(100%);
-}
-
-.flexHijo {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row-reverse;
-	justify-content: center;
-	text-align: center; 
-}
