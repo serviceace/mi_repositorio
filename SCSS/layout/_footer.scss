@@ -1,7 +1,6 @@
 h6 {
-	font-family: 'Glory', sans-serif;
 	color: $fuente__principal--Color;
-	font-size: 20px;
+	font-size: 1rem;
 }
 
 footer {
@@ -10,5 +9,5 @@ footer {
 	background-image: linear-gradient($paleta__color--secundario, $paleta__color--terciario);
 	text-align: center;
 	width: 100%; 
-   height: 60px;
+   height: 6.25rem;
 }

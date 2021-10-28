@@ -13,7 +13,6 @@ ul {
   list-style: none;
   padding: 0; }
 
-/* Se puede dividir: "width / cantidad de botones " y pone en porcentaje */
 li {
   display: inline-block;
   width: 24%;
@@ -33,25 +32,22 @@ ul li:hover ul:hover {
   background-color: red; }
 
 ul li {
-  font-family: 'Glory', sans-serif;
   list-style: none;
   color: white; }
 
 ol li {
-  font-family: 'Glory', sans-serif;
-  list-style-type: decimal-leading-zero;
   color: white; }
 
 a {
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-align: center;
   display: block;
   color: white;
   padding: 0.1rem;
-  font-family: 'Glory', sans-serif;
   text-decoration: none; }
 
 a:hover {
+  display: block;
   color: white;
   background-color: #9ba475; }
 
@@ -107,9 +103,8 @@ a:hover {
 
 /* ---- Botones Producto ----*/
 h6 {
-  font-family: 'Glory', sans-serif;
   color: white;
-  font-size: 20px; }
+  font-size: 1rem; }
 
 footer {
   color: white;
@@ -117,61 +112,9 @@ footer {
   background-image: linear-gradient(#68663d, #242315);
   text-align: center;
   width: 100%;
-  height: 60px; }
+  height: 6.25rem; }
 
 body {
-  background-color: #9ba475; }
-
-.container {
-  padding: 50px 50px;
-  margin: 30px 0px; }
-
-/*-------BOTONES PRODUCTO --------*/
-.contenedorImg {
-  display: flex;
-  justify-content: space-around; }
-
-.contenedorImg article {
-  align-items: flex-end; }
-
-.contenedorImg article img {
-  width: 200px;
-  border-radius: 5px;
-  filter: brightness(70%);
-  transform: scale(1);
-  transition: all 0.3s ease-in-out; }
-
-.contenedorImg article p {
-  font-size: 1.7rem;
-  color: white;
-  margin-top: 8px;
-  align-items: center; }
-
-.contenedorImg article img:hover {
-  filter: brightness(100%);
-  transform: scale(1.1); }
-
-.cuadrado {
-  border-radius: 15px;
-  filter: brightness(70%);
-  margin: 20px;
-  width: 200px;
-  height: 200px;
-  transition: all 0.3s;
-  transition-property: all;
-  transition-duration: 0.3s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s; }
-
-.cuadrado img:hover {
-  filter: brightness(100%);
-  transform: scale(1.1); }
-
-p {
-  font-family: 'Glory', sans-serif;
-  color: white; }
-
-.contenido {
   background-color: #9ba475; }
 
 nav {
@@ -181,50 +124,19 @@ nav {
   color: white; }
 
 h2 {
-  font-family: 'Glory', sans-serif;
   font-weight: bold;
   color: white; }
 
-.nombre_seccion {
-  margin: 20px;
-  font-family: 'Glory', sans-serif;
-  color: white;
-  text-align: center; }
-
 .titulos {
   margin: 20px;
-  font-family: 'Glory', sans-serif;
-  font-weight: bold;
   color: white;
   font-size: 50px; }
 
 .parrafos {
-  font-weight: bold;
-  line-height: 1rem;
   margin: 1rem 5rem 1rem 5rem;
-  font-family: 'Glory', sans-serif;
   font-size: 1.5rem;
-  font-family: serif;
   text-align: left;
   color: white; }
-
-table, th, td {
-  font-weight: bold;
-  font-family: 'Glory', sans-serif;
-  padding: 15px;
-  border: 1px solid black;
-  border-collapse: collapse;
-  list-style-position: center;
-  text-align: center;
-  width: 50%;
-  color: white; }
-
-form {
-  margin: 20px;
-  text-align: center;
-  font-family: 'Glory', sans-serif;
-  color: white;
-  width: 80%; }
 
 /* ----- Grilla en Quienes Somos -----*/
 .grilla_quienesSomos {

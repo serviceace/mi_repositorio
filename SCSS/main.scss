@@ -11,69 +11,6 @@ body {
 	background-color: $paleta__color--principal;
 }
 
-.container {
-	padding: 50px 50px;
-	margin: 30px 0px;
-}
-
-
-/*-------BOTONES PRODUCTO --------*/
-.contenedorImg {
-    display: flex;
-    justify-content: space-around;
-}
-
-.contenedorImg article {
-    align-items: flex-end;
-}
-
-.contenedorImg article img {
-    width: 200px;
-    border-radius: 5px;
-    filter: brightness(70%);
-    transform: scale(1);
-    transition: all 0.3s ease-in-out;
-}
-
-.contenedorImg article p {
-    font-size: 1.7rem;
-    color: $fuente__principal--Color;
-    margin-top: 8px;
-    align-items: center;
-}
-
-.contenedorImg article img:hover {
-    filter: brightness(100%);
-    transform: scale(1.1);
-}
-
-.cuadrado {
-	border-radius: 15px;
-	filter: brightness(70%);
-	margin: 20px;
-	width: 200px;
-	height: 200px;
-	transition: all 0.3s;
-	transition-property: all;
-	transition-duration: 0.3s;
-	transition-timing-function: ease-in-out;
-	transition-delay: 0s;
-}
-
-.cuadrado img:hover {
-	filter: brightness(100%);
-	transform: scale(1.1);
-}
-
-p {
-	font-family: 'Glory', sans-serif;
-	color: $fuente__principal--Color;
-}
-
-.contenido {
-	background-color: $paleta__color--principal;
-}
-
 nav {
 	background-color: $paleta__color--secundario;
 	width: 100%; 
@@ -82,62 +19,23 @@ nav {
 }
 
 h2 {
-	font-family: 'Glory', sans-serif;
 	font-weight: bold;
 	color: $fuente__principal--Color;
-}
-
-.nombre_seccion {
-	margin: 20px;
-	font-family: 'Glory', sans-serif;
-	color: $fuente__principal--Color;
-	text-align: center;
 }
 
 .titulos {
 	margin: 20px;
-	font-family: 'Glory', sans-serif;
-	font-weight: bold;
 	color: $fuente__principal--Color;
 	font-size: 50px;
 }
 
 .parrafos {
-	font-weight: bold;
-	line-height: 1rem;
+	
 	margin: 1rem 5rem 1rem 5rem;
-	font-family: 'Glory', sans-serif;
 	font-size: 1.5rem;
-	font-family: serif;
 	text-align: left;
 	color: $fuente__principal--Color;
 }
-
-
-
-table, th, td {
-	font-weight: bold;
-	font-family: 'Glory', sans-serif;
-	padding: 15px;
-	border: 1px solid black;
-	border-collapse: collapse;
-	list-style-position: center;
-	text-align: center;
-	width: 50%;
-	color: $fuente__principal--Color;
-	}
-
-form {
-	margin: 20px;
-	text-align: center;
-	font-family: 'Glory', sans-serif;
-	color: $fuente__principal--Color;
-	width: 80%;
-}
-
-
-
-
 
 /* ----- Grilla en Quienes Somos -----*/
 .grilla_quienesSomos {

@@ -10,7 +10,6 @@ ul {
 	padding: 0;
 }
 
-/* Se puede dividir: "width / cantidad de botones " y pone en porcentaje */
 
 li {
 	display: inline-block;
@@ -36,28 +35,25 @@ ul li:hover ul:hover {
 }
 
 ul li { 
-	font-family: 'Glory', sans-serif;
 	list-style: none;
 	color: $fuente__principal--Color;
 } 
 
 ol li {
-	font-family: 'Glory', sans-serif;
-	list-style-type: decimal-leading-zero;
 	color: $fuente__principal--Color;
 }
 
 a {
-	font-size: 1rem;
+	font-size: 1.4rem;
 	text-align: center;
 	display: block;
 	color: $fuente__principal--Color;
 	padding: 0.1rem;
-	font-family: 'Glory', sans-serif;
 	text-decoration: none;
 }
 
 a:hover {
+	display: block;
     color: $fuente__principal--Color;
 	background-color: $paleta__color--principal;
 }
