@@ -1,54 +1,29 @@
 .cabecera {
-	padding: 0;
+	padding: 0rem;
 	width: 15.3rem;
 	height: 12.5rem;
 }
 
 ul {
-
+	background-color: $paleta__color--secundario;
 	list-style: none;
-	padding: 0;
+	padding: 0.3rem;
 }
-
 
 li {
 	display: inline-block;
 	width: 24%;
-	position: relative;
-
 }
+
 ul ul {
-	position: absolute;
 	display: none;
 }
 
-ul ul li {
-	width: 100%;
-}
-
-ul li:hover ul {
-	display: block;
-}
-
-ul li:hover ul:hover {
-	background-color: red;
-}
-
-ul li { 
-	list-style: none;
-	color: $fuente__principal--Color;
-} 
-
-ol li {
-	color: $fuente__principal--Color;
-}
-
 a {
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	text-align: center;
 	display: block;
 	color: $fuente__principal--Color;
-	padding: 0.1rem;
 	text-decoration: none;
 }
 
