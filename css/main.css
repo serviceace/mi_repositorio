@@ -95,13 +95,12 @@ footer {
   height: 6.25rem; }
 
 body {
-  overflow-x: none;
   background-color: #f1b366; }
 
 nav {
-  margin: 5px;
+  margin: 0.3rem;
   background-color: #5f864f;
-  height: 36px;
+  height: 2.25rem;
   color: #ffffff; }
 
 h2 {
@@ -111,9 +110,9 @@ h2 {
   color: #ffffff; }
 
 .titulos {
-  margin: 20px;
+  margin: 1.25rem;
   color: #ffffff;
-  font-size: 50px; }
+  font-size: 3.1rem; }
 
 .parrafos {
   margin: 1rem 5rem 1rem 5rem;

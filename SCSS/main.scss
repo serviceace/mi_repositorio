@@ -8,14 +8,14 @@
 
 
 body {
-	overflow-x: none;
+	
 	background-color: $paleta__color--principal;
 }
 
 nav {
-	margin: 5px;
+	margin: 0.3rem;
 	background-color: $paleta__color--secundario;
-	height: 36px;
+	height: 2.25rem;
 	color: $fuente__principal--Color;
 }
 
@@ -27,9 +27,9 @@ h2 {
 }
 
 .titulos {
-	margin: 20px;
+	margin: 1.25rem;
 	color: $fuente__principal--Color;
-	font-size: 50px;
+	font-size: 3.1rem;
 }
 
 .parrafos {
