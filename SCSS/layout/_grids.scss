@@ -1,0 +1,29 @@
+/* ----- INICIO Grilla en Quienes Somos -----*/
+.grilla_quienesSomos {
+	margin: 3rem;
+	padding: 1rem;
+	color: $fuente__principal--Color;
+	justify-content: center;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 1rem;
+	grid-template-areas: "box2 box1";
+}
+
+.box-1 {
+	padding: 1rem;
+	grid-area: box1;
+}
+
+.box-2 {
+	
+	padding: 1rem;
+	grid-area: box2;
+	background-color: $paleta__color--secundario;
+}
+
+.fotos_QuienesSomos {
+	width: 26rem;	
+}
+
+/* ----- FIN Grilla en Quienes Somos -----*/

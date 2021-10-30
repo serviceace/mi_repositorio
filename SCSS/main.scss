@@ -1,17 +1,24 @@
 @import "./base/reset";
 @import "./base/paleta";
 @import "./layout/header";
-@import "./components/navegacion";
+@import "./layout/grids";
 @import "./utilities/animaciones";
 @import "./components/buttons";
 @import "./layout/footer";
 
 
+
+/* ----- INICIO Fondo General de la página ----- */
 body {
 	
 	background-color: $paleta__color--principal;
 }
+/* ----- FIN Fondo General de la página ----- */
 
+
+
+
+/* ----- INICIO Propiedades para contenido dentro de la página ----- */
 nav {
 	margin: 0.3rem;
 	background-color: $paleta__color--secundario;
@@ -39,32 +46,4 @@ h2 {
 	color: $fuente__principal--Color;
 }
 
-/* ----- Grilla en Quienes Somos -----*/
-.grilla_quienesSomos {
-	margin: 3rem;
-	padding: 1rem;
-	color: $fuente__principal--Color;
-	justify-content: center;
-	display: grid;
-	grid-template-rows: 1fr 1fr;
-	grid-gap: 1rem;
-	grid-template-areas: "box2 box1";
-}
-
-.box-1 {
-	padding: 1rem;
-	grid-area: box1;
-}
-
-.box-2 {
-	
-	padding: 1rem;
-	grid-area: box2;
-	background-color: $paleta__color--secundario;
-}
-
-.fotos_QuienesSomos {
-	width: 26rem;	
-}
-
-/* ----- FIN Grilla en Quienes Somos -----*/
+/* ----- FIN Propiedades para contenido dentro de la página ----- */
