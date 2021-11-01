@@ -120,11 +120,6 @@ a:hover {
     .Productos__PadreFlex .Productos__Botones:hover {
       filter: brightness(100%); }
 
-.Productos__Textos {
-  color: #ffffff;
-  text-align: center;
-  justify-content: space-evenly; }
-
 /* ---- FIN Botones Producto ----*/
 h6 {
   color: #ffffff;
