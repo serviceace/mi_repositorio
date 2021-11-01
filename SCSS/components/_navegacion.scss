@@ -1,0 +1,21 @@
+
+/* ----- INICIO Estilo para la barra ----- */
+
+/* width */
+::-webkit-scrollbar {
+    width: 1.2rem;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: $paleta__color--principal;
+    border-radius: 0;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $paleta__color--secundario;
+    border-radius: 1rem;
+  }
+
+  /* ----- FIN Estilo para la barra ----- */
