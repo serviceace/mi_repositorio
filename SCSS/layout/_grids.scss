@@ -3,7 +3,8 @@
 	padding: 1rem;
 	color: $fuente__principal--Color;
 	justify-content: center;
-	display: inline-flex;
+	display: flex;
+	flex: content;
 	grid-template-rows: 1fr 1fr;
 	grid-gap: 1rem;
 	grid-template-areas: "box2 box1";
