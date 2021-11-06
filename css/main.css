@@ -8,9 +8,7 @@
 /* --- Colores de Fuentes --- */
 /* --- Colores de Layout --- */
 .cabecera {
-  padding: 0rem;
-  width: 15.3rem;
-  height: 12.5rem; }
+  padding: 0rem; }
 
 /* --- INICIO Botones de la barra de Menu --- */
 ul {
@@ -29,12 +27,12 @@ a {
   font-size: 1.2rem;
   text-align: center;
   display: block;
-  color: #754f2c;
+  color: black;
   text-decoration: none; }
 
 a:hover {
   display: block;
-  color: #754f2c;
+  color: black;
   background-color: #f3bf7f; }
 
 /* --- FIN Botones de la barra de Menu --- */
@@ -57,7 +55,7 @@ a:hover {
 /* ----- INICIO Grilla en Quienes Somos -----*/
 .grilla_quienesSomos {
   padding: 1rem;
-  color: #754f2c;
+  color: black;
   justify-content: center;
   display: flex;
   flex: content;
@@ -105,7 +103,7 @@ a:hover {
       filter: brightness(100%); }
 
 .Redes__Textos {
-  color: #754f2c;
+  color: black;
   text-align: center; }
 
 /* ---- FIN Botones de Redes Sociales  ---- */
@@ -123,11 +121,11 @@ a:hover {
 
 /* ---- FIN Botones Producto ----*/
 h6 {
-  color: #754f2c;
+  color: black;
   font-size: 1rem; }
 
 footer {
-  color: #754f2c;
+  color: black;
   position: absolute;
   background-image: linear-gradient(#84b471, #2a5758);
   text-align: center;
@@ -144,23 +142,23 @@ nav {
   margin: 0.3rem;
   background-color: #84b471;
   height: 2.25rem;
-  color: #754f2c; }
+  color: black; }
 
 h2 {
   text-align: center;
   margin: 3rem;
   font-weight: bold;
-  color: #754f2c; }
+  color: black; }
 
 .titulos {
   margin: 1.25rem;
-  color: #754f2c;
+  color: black;
   font-size: 3.1rem; }
 
 .parrafos {
   margin: 1rem 5rem 1rem 5rem;
   font-size: 1.5rem;
   text-align: left;
-  color: #754f2c; }
+  color: black; }
 
 /* ----- FIN Propiedades para contenido dentro de la página ----- */
