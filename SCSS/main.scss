@@ -41,10 +41,25 @@ h2 {
 }
 
 .parrafos {
-	margin: 1rem 5rem 1rem 5rem;
+	margin: 1rem 2rem 1rem 2rem;
 	font-size: 1.5rem;
 	text-align: left;
 	color: $fuente__principal--Color;
 }
 
+.Foto__QuienesSomos {
+	float: right;
+	width: 400px;
+	margin: 1rem;
+	border-style: solid;
+	border-color: $paleta__color--secundario ;
+	border-width: 15px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: 1rem;
+}
 /* ----- FIN Propiedades para contenido dentro de la página ----- */
